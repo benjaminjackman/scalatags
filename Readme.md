@@ -453,6 +453,9 @@ Custom Bundles
 ==============
 
 ```scala
+import scalatags.Text
+import scalatags.text
+
 object CustomBundle extends Text.Cap with text.Tags with text.Tags2 with Text.Aggregate{
   object st extends Text.Cap with Text.Styles with Text.Styles2
   object at extends Text.Cap with Text.Attrs
